@@ -1,7 +1,7 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose');   // Import mongoose
 
-const usertemplate = mongoose.Schema({
-    _id: mongoose.Schema.Types.ObjectId,
+const usertemplate = mongoose.Schema({  // Create a new schema for user
+    _id: mongoose.Schema.Types.ObjectId, 
 
 
     email: { type: String, required: true},
@@ -18,4 +18,4 @@ const usertemplate = mongoose.Schema({
 
 })
 
-module.exports = mongoose.model('user', usertemplate);
+module.exports = mongoose.model('user', usertemplate); // Export user model with the schema usertemplate 

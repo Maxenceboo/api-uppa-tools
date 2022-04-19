@@ -1,8 +1,8 @@
-const app = require('./app');
+const app = require('./app'); // Import app.js
 
-const port = 3003;
+const port = 3003;  // port to listen
 
 
-app.listen(port, () => {
-    console.log('Listening to:', port);
+app.listen(port, () => {    // Start the server
+    console.log('Listening to:', port); // Log the port
 });
