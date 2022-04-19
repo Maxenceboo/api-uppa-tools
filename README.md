@@ -26,7 +26,7 @@ I used react native to make the app and other libraries.
 
 ## Getting Started
 
-That is instruction for use api. But this api is in this [vps](vps-e1a777fe.vps.ovh.net)  
+That is instruction for use api. But this api is in this [vps](http://vps-e1a777fe.vps.ovh.net:3003)  
 
 
 ### Requrments
